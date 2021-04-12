@@ -1,0 +1,42 @@
+#shareResult{
+/*   display: none;
+ */  background-color: whitesmoke;
+  width: 90%;
+  text-align: left;
+  border-radius: 20px;
+}
+#result{
+  display: none;
+  background-color: whitesmoke;
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultname{
+  font-size: 24px;
+}
+
+.resultDesc{
+text-align: left;
+  font-size: 18px;
+}
+
+.kakao{
+  color: white;
+  background-color: #35B5AC;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover, .kakao:focus {
+  background-color: whitesmoke;
+  color: #35B5AC;
+}
+
+
+.half_HL{
+	  background: linear-gradient(to top, #ffbb00 50%, transparent 50%);
+	
+}
