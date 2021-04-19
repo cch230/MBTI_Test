@@ -46,7 +46,7 @@
 <title>명대사로 보는 팩폭 성향테스트</title>
 
 <script>
-	Kakao.init("b030c3ea411f34ca5103934037a4a7a5");
+	Kakao.init("Kakao");
 	Kakao.isInitialized();
 </script>
 </head>
