@@ -1,6 +1,31 @@
 # MBTI_Test
+## 유명아ㅣㄴ으로 보는 성향테스트
 
-## 직접 심리 테스트 사이트를 만들고, 배포해보는 Project 사이트를 제작합니다.
+## 사용언어 및 환경
+![JS](https://img.shields.io/badge/-Javascript-8E5C2B?style=flat-square&logo=Javascript)
+![CSS](https://img.shields.io/badge/-CSS-F9826C?style=flat-square&logo=CSS)
+![JAVA](https://img.shields.io/badge/-JAVA-F9826C?style=flat-square&logo=JAVA)
+
+Eclipse IDE
+MariaDB
+
+
+
+Representative email : cch01024857239@gmail.com
+---
+
+## 성향테스트 제작 프로젝트
+* 성향테스트를 만들어 참여한 사람의 성향을 데이터로 확인해보자
+
 ### 그림을 클릭하면 성향테스트 사이트로 이동합니다
+[![Image Label](https://cch230.github.io/Churani_portfolio/images/22.PNG)](http://www.wowflee.com/) ****
 
-[![Image Label](https://cch230.github.io/Churani_portfolio/images/22.PNG)](http://www.wowflee.com/) 
+### SPA, bootstrap, DB, KAKAO Share
+```tex
+카카오에서 제공하는 공유기능을 활용하여 결과 공유 
+Single Page Application
+SQL Injection 방지  
+bootstrap을 이용한 간단한 애니메이션 추가
+
+
+
