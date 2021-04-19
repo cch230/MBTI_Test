@@ -15,9 +15,9 @@ public class ConnectDB {
 		return instance;
 	}
 
-	String jdbcUrl = "jdbc:mysql://115.85.181.90:3307/mbti?autoReconnect=true&characterEncoding=euc_kr";
-	String dbId = "root";
-	String dbPw = "Cch951753!";
+	String jdbcUrl = "your_jdbcUrl";
+	String dbId = "dbId";
+	String dbPw = "dbPw";
 	Connection conn = null;
 	PreparedStatement pstmt = null;
 	ResultSet rs = null;
