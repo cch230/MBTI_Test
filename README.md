@@ -5,6 +5,7 @@
 ![JS](https://img.shields.io/badge/-Javascript-8E5C2B?style=flat-square&logo=Javascript)
 ![CSS](https://img.shields.io/badge/-CSS-F9826C?style=flat-square&logo=CSS)
 ![JAVA](https://img.shields.io/badge/-JAVA-1A66D6?style=flat-square&logo=JAVA)
+![MariaDB](https://img.shields.io/badge/-MariaDB-BEBFC1?style=flat-square&logo=MariaDB)
 
 Eclipse IDE  
 MariaDB  
