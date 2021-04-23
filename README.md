@@ -7,8 +7,7 @@
 ![JAVA](https://img.shields.io/badge/-JAVA-1A66D6?style=flat-square&logo=JAVA)
 ![MariaDB](https://img.shields.io/badge/-MariaDB-BEBFC1?style=flat-square&logo=MariaDB)
 
-Eclipse IDE  
-MariaDB  
+Eclipse IDE   
 Apache_Tomcat  
 N_cluod Server  
 
