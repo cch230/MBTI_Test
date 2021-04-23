@@ -1,5 +1,5 @@
 # MBTI_Test
-## 유명아ㅣㄴ으로 보는 성향테스트
+## 유명인으로 보는 성향테스트
 
 ## 사용언어 및 환경
 ![JS](https://img.shields.io/badge/-Javascript-8E5C2B?style=flat-square&logo=Javascript)
