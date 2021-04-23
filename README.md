@@ -6,8 +6,10 @@
 ![CSS](https://img.shields.io/badge/-CSS-F9826C?style=flat-square&logo=CSS)
 ![JAVA](https://img.shields.io/badge/-JAVA-1A66D6?style=flat-square&logo=JAVA)
 
-Eclipse IDE
-MariaDB
+Eclipse IDE  
+MariaDB  
+Apache_Tomcat  
+N_cluod Server  
 
 
  
@@ -24,6 +26,7 @@ Representative email : cch01024857239@gmail.com
 ```text
 카카오에서 제공하는 공유기능을 활용하여 결과 공유 
 Single Page Application
+Click Data_Save
 SQL Injection 방지  
 bootstrap을 이용한 간단한 애니메이션 추가
 
