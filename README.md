@@ -21,7 +21,7 @@ Representative email : cch01024857239@gmail.com
 [![Image Label](https://cch230.github.io/Churani_portfolio/images/22.PNG)](http://www.wowflee.com/) ****
 
 ### SPA, bootstrap, DB, KAKAO Share
-```tex
+```text
 카카오에서 제공하는 공유기능을 활용하여 결과 공유 
 Single Page Application
 SQL Injection 방지  
