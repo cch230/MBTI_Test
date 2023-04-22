@@ -1,0 +1,42 @@
+#shareResult{
+/*   display: none;
+ */  background-color: #1A1A1A;
+  width: 90%;
+  text-align: left;
+  border-radius: 20px;
+}
+#result{
+  display: none;
+  background-color: #1A1A1A;
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultname{
+  font-size: 24px;
+}
+
+.resultDesc{
+text-align: left;
+  font-size: 18px;
+}
+
+.kakao{
+  color: #1A1A1A;
+  background-color: #F96791;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover, .kakao:focus {
+  background-color: #1A1A1A;
+  color: #F96791;
+}
+
+
+.half_HL{
+	  background: linear-gradient(to top, #FF5858 50%, transparent 50%);
+	
+}

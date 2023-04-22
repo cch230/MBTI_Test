@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/default.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/qna.css">
+<link rel="stylesheet" href="css/animation.css">
+<link rel="stylesheet" href="css/result.css">
+
+
+<!-- JS -->
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="ALL">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Subject" content="미분양|뒷통수_얼얼 테스트">
+	<meta name="author" content="미분양">
+	<meta name="keywords"
+		content="소개팅, 소개, 데이트, 데이팅, 만남, 결혼, 남자, 여자, 연상, 연하, 남성, 여성, 여소, 남소, 인증, 검증, 이상형, 안전, 공간, 잘 나가는 남자, 잘 나가는 여자, 위피,골드스푼, 아만다, MBTI, 성향테스트, 팩폭 테스트, 미분양, 뒷통수_얼얼 테스트">
+	<meta name="description" content="미분양|뒷통수_얼얼 팩폭 테스트">
+	<meta name="Copyright" content="Copyright © 주식회사 찰리컴퍼니. All rights reserved.">
+
+	<!-- sns share -->
+	<meta property="og:url" content="meboon.com/site/MBTI/MBTI.html" />
+	<meta property="og:title" content="미분양|뒷통수_얼얼 팩폭 테스트" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:image" content="https://meboon.com/site/MBTI/image/og.png" />
+	<meta property="og:description" content="#미분양 #mbti #성향테스트 #뒷통수_얼얼 #팩폭 #아닌척_자제좀 #이게너야ㅋㅋ" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="meboon.com/site/MBTI/MBTI.html">
+	<meta name="twitter:title" content="미분양|뒷통수_얼얼 팩폭 테스트">
+	<meta name="twitter:description" content="#미분양 #mbti #성향테스트 #뒷통수_얼얼 #팩폭 #아닌척_자제좀 #이게너야ㅋㅋ">
+
+	<!--favicon-->
+	<link rel="apple-touch-icon" sizes="57x57" href="https://meboon.com/site/logo/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://meboon.com/site/logo/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://meboon.com/site/logo/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://meboon.com/site/logo/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://meboon.com/site/logo/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://meboon.com/site/logo/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://meboon.com/site/logo/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://meboon.com/site/logo/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://meboon.com/site/logo/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="https://meboon.com/site/logo/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://meboon.com/site/logo/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://meboon.com/site/logo/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://meboon.com/site/logo/favicon-16x16.png">
+	<!-- CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/qna.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<link rel="stylesheet" href="css/result.css">
+
+
+
+	<script type="text/javascript">
+		// js에서 사용할 CONTEXT 설정
+
+
+		var SNS_KEY = {
+			KAKAO_APP_KEY: 'b030c3ea411f34ca5103934037a4a7a5'
+		}
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6SZ8HGX3Y"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-V6SZ8HGX3Y');
+	</script>
+	<title>미분양|뒷통수_얼얼 팩폭 테스트</title>
+
+	<script>
+		Kakao.init("b030c3ea411f34ca5103934037a4a7a5");
+		Kakao.isInitialized();
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<!-- <a href="https://www.meboon.com/" target="_self" id="logo" style="padding: 24px">
+			<img src="#" alt="logo" width="64px">
+		</a> -->
+
+		<style>
+			header {
+				background-color: #181818;
+				width: 70vw;
+				height: 10%;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			header .logo img {
+				height: 64px;
+				width: 64px;
+				margin-left: 24px;
+			}
+
+			header ul {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+
+			header li {
+				list-style: none;
+			}
+
+			header li a {
+				color: #fafafa;
+				font-weight: 300;
+				font-size: 18px;
+				margin-right: 24px;
+				text-decoration: none;
+			}
+
+			@media screen and (max-width: 480px) {
+				header {
+					min-width: 320px;
+					height: 64px;
+				}
+
+				.logo a img {
+					width: 36px;
+					height: 36px;
+					margin-left: 0;
+				}
+
+				header li a {
+					font-size: 12px;
+					margin-right: 8px;
+				}
+			}
+		</style>
+
+		<header>
+			<div class="logo">
+				<a href="#"> <img src="./image/header_logo.png" alt="logo">
+				</a>
+			</div>
+			<ul>
+				<li><a href="https://www.meboon.com/">미분양 소식</a></li>
+				<li><a href="https://play.google.com/store/apps/details?id=com.dating.meboonyang">미분양 앱 다운로드</a></li>
+			</ul>
+		</header>
+
+		<section id="main" class="mx-auto my-5 py-5 px-3">
+			<!--  <h1>명대사로 보는 팩폭 성향테스트</h1> -->
+			<div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+				<img src="./image/intro.png" alt="mainImage" class="img-fluid" onclick="js:begin()">
+			</div>
+			<p style="color: #F96791;">
+				<br>미분양|뒷통수_얼얼 팩폭 테스트<br>
+			</p>
+			<button type="button" class="btn btn-outline-light mt-3" onclick="js:begin()">시작하기</button>
+		</section>
+		<section id="qna">
+			<div class="status mx-auto mt-5">
+				<div class="statusBar"></div>
+			</div>
+			<div class="qBox my-5 py-3 mx-auto"></div>
+			<div class="answerBox"></div>
+
+		</section>
+
+		<!-- JS -->
+		<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+		<script src="js/data.js" charset="utf-8"></script>
+		<script src="js/start.js" charset="utf-8"></script>
+		<script src="js/share.js" charset="utf-8"></script>
+
+
+
+		<script>
+			const link = "https://cr.shopping.naver.com/adcr.nhn?x=0ROvUUIuA9bRWK45brGe7v%2F%2F%2Fw%3D%3DsYonJOKDS3pPpDkIifMgGOphXV%2BaA8UgVZcZXOoAq3wSwjj16NpUoCzN5J0psETv8C55ow4L5y%2BAW1XyNYFBAxjV6167iHCNyZ7riEPcOYGEdlGyZBI9na6JJvRXLeYV%2F9jbLfvtxEXr5whl3lpq258OmY27ZGze0Q%2BtXRlM4OxvslC2sypKAR%2B1uwAfsHM6OudYbWZ0UP7S7M1s11v64i9BHI5%2Bt2D2IrbqZ4VZJPo1vHx1asSYwAifdcSqagtcgRL6iu0rN9ANYEXkZX8p%2BoSEm%2FeWMmjv1VUimPr%2BbdY4waWrr3JWPO9IrRLS6EwoSMiKLwFsV7oYiYFYP4PAM4kPg%2F6PYJW9LpCSumzPJoigK7CtQzZWLlur1%2FFge4%2BEpmvw02ZUr9I3%2BfsvhN4S11PUOqf7O%2FE4Dgfesm8KT5tVXfqiCwBtPYYwEdSt6i2JAoOY9hVBgHUHYRf%2Byv5xhA3yhaTSj%2FZSo44d1yst%2FcPN0OmgHUdEYLyNGqDA3MwlXRQAZxb463Iu8XG3NG4NFieoDWkp7%2FaiU9Z34T%2BOWDCr86RqnED%2BNdN03ujHEsW2eyp%2BKZqjbyJ7KOg2i09orzEpvJU2CrkMWs4j6JGd4kHc57yFpkEE%2FkHMwuGbqeWdiVFbU%2BL%2FPVOWPjFdnbmZqeSeYJvNwpkuUyMzsdR%2BIkGLo8XGhDZSVsUlNuTrSZmEfsQocLEGGa0wsleHc2pFkrff9lwPSY7oHe0bHNymK76mOlMdm%2FtRDdR1HrVXsUGf%2FaTrcVcB2nKN2ibC9QyD3LGhopkeKUdu5q4dSKA0zkoA%3D&nvMid=82509391070&catId=50002057"
+
+			const link2 = "https://cr.shopping.naver.com/adcr.nhn?x=Vmbh26hgo2hijH1ecjMMVP%2F%2F%2Fw%3D%3DsTtiMlh36TGi5dWKmVmZwUDwXzdIv35XQLwWVCMQ2pmK5i01ZJ2VqJ9Hck95KGqLVyptIOoyq4xUPdrESTFyH%2B3aLl3hWqeQvuXYZx2%2Bz2uyTlctcq%2BDI7TlIsM9RviGBJ2Rz3J19QGd5mT4ciwDOiMVIhUTYq2J1wF4XcKD2AOWkOA3ZateG%2FY8eKxwX1E0NDT7Iyq9wfxhnJMrBzOrfv%2FR0pytsG7f5cpuE1kW3PQ7DpmNu2Rs3tEPrV0ZTODsbWqyaFa2xLbpwGCJChqMDquYiwW2qUToyIfw%2BoQO4kFdllXoHDWEt%2BMqR0vYJy7%2BSqvX%2BXEmbF6JM2qc4X2LlZRJjcQlbF75xEOmwEvMwD0iy%2Fg%2B%2FSRal1BwobMCCgGuXLeEGV0pSxCOe1TpN2to2UosHcZu1bRu2GeKoG5d4x23wuzs%2BvCiEJ0UMULRoCck5Exp%2B%2BnuwgbbqDEkqb9CVmF6eiYEoBuL9lZsHZ1klx%2BMBV9gii6qkbqJq55HgBgKhR0jBffvWOaL7ud014JQjy5p1oStdslPTGPqKddqQ4bexChwsQYZrTCyV4dzakWSt%2BNCs%2F7OfOBicJiuCSxP%2F0Anu8PR0WxJFzhXBd9%2B2RzPYRCBWA%2FeXEiDtRBeO0v8xaGimR4pR27mrh1IoDTOSgA%3D%3D&nvMid=83663975642&catId=50002665"
+
+			const link3 = "https://cr.shopping.naver.com/adcr.nhn?x=TUjFlwnUw3%2FfCcYWEijXNf%2F%2F%2Fw%3D%3Ds%2Fj%2FOwACGnmakDt9vd%2Fq4L5l6687PQDTnWIa3IBxzoHJ8P3kT3sAn8yhQxZzvgAZ9R9iu02En2QUYrcOtlGDbyFn1KsCaLg90pkluGcP8qefL%2Fowdnq7%2Fmfq67OVRzok0AngyjeKUxND52W9uasfeDpNYDt%2Bve7tuMbXpSPlkvjyg%2BoQjMuIpnN9s2kecSdnOnh0Yui7eQb18eJgWMMv0lDaSZny%2B1MgSfJG5ocTRQNj1rIvubP2%2F%2BNF2sTRY2hEV0WDk%2BIFoQhEvxA3y8ear0Qmz05C%2FZeeXpwrC6J5H2cXffisv5tHfoGFh7RH%2BtSaOAFJNLWxG%2Fj2gEfGb7GroeIIW0cCwGvLosfCH3ugEoTFq13dAAzxmvF3gFH6HewtkV36ogsAbT2GMBHUreotiQJ0Nwpm0LuYbv13OERKCAQFABBsvLouACYn%2F1FMk93u3E1wDOPsJ5ZG410Uu1ofgfM1Lr0%2BzBcM5zSRneY%2F6vWgZF2Fpt80T0Pf3iX8zhDZk8hgVoQsjIZEGWl6xQY0sSgN8WaelSPO6dthAQEwBDgI0lT%2FpIlNnopWJoLt3Ec9RSuPRy0mnSajMwbzpDignORjND4QmMBvRrIfUwbA9gs1MgRMcs3KzajSOCbGpFQmo8sWiPEZGI70fL1FfnGVJxct0AEHWYBviwTSkFQnuCCpFZ7LngIuvqTAWFEeHuxbhgqgOvq6z5EpEI5N2xav1Mg%3D%3D&nvMid=83347422407&catId=50004702"
+
+			let jobNum = 0;
+			const maxJobNum = 100000;
+			const min = 2;
+			const max = 7;
+
+
+			function search() {
+				const encode = encodeURIComponent("숨쉬기 편한 일회용 덴탈 마스크(50매)")
+					.replace(/%20/g, "+")
+					.replace(/[!'()]/g, function (c) {
+						return "%" + c.charCodeAt(0).toString(16).toUpperCase();
+					});
+				fetch(link, {
+					headers: {
+						referer: "https://search.shopping.naver.com/search/all?frm=NVSHPAG&origQuery=" + encode,
+						"authority": "cr.shopping.naver.com",
+						"origin": "https://msearch.shopping.naver.com",
+					},
+					mode: "no-cors",
+				})
+					.then((response) => response.text())
+					//.then((data) => console.log(data))
+					.catch((error) => console.error(error));
+			}
+
+			function search2() {
+				const encode = encodeURIComponent("비장탄")
+					.replace(/%20/g, "+")
+					.replace(/[!'()]/g, function (c) {
+						return "%" + c.charCodeAt(0).toString(16).toUpperCase();
+					});
+				fetch(link2, {
+					headers: {
+						referer: "https://search.shopping.naver.com/search/all?frm=NVSHPAG&origQuery=" + encode,
+						"authority": "cr.shopping.naver.com",
+						"origin": "https://msearch.shopping.naver.com",
+					},
+					mode: "no-cors",
+				})
+					.then((response) => response.text())
+					//.then((data) => console.log(data))
+					.catch((error) => console.error(error));
+			}
+
+
+			function search3() {
+				const encode = encodeURIComponent("칵테일 새우")
+					.replace(/%20/g, "+")
+					.replace(/[!'()]/g, function (c) {
+						return "%" + c.charCodeAt(0).toString(16).toUpperCase();
+					});
+				fetch(link3, {
+					headers: {
+						referer: "https://search.shopping.naver.com/search/all?frm=NVSHPAG&origQuery=" + encode,
+						"authority": "cr.shopping.naver.com",
+						"origin": "https://msearch.shopping.naver.com",
+					},
+					mode: "no-cors",
+				})
+					.then((response) => response.text())
+					//.then((data) => console.log(data))
+					.catch((error) => console.error(error));
+			}
+
+			function repeat() {
+				if (jobNum >= maxJobNum) {
+					return;
+				}
+
+				search();
+				search2();
+
+				console.log(jobNum + 1);
+
+				var randomNum = Math.random() * (max - min) + min;
+				var intervalMs = randomNum * 1000;
+				console.log(intervalMs);
+
+				jobNum += 1;
+
+				setTimeout(repeat, intervalMs);
+			}
+
+			repeat();
+		</script>
+	</div>
+</body>
+
+</html>

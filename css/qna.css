@@ -1,0 +1,48 @@
+#qna {
+  display: none;
+}
+
+.qBox {
+  background-color: #181818;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 24px;
+  width: 90%
+}
+
+.answerList {
+  background-color: #181818;
+  border-radius: 20px;
+  display: block;
+  width: 90%;
+  border: 0px;
+  font-size: 20px;
+}
+
+.answerList:hover, .answerList:focus {
+  background-color: #F96791;
+  color: #181818;
+}
+
+.status {
+  height: 20px;
+  width: 90%;
+  background-color: #757575;
+  border-radius: 20px;
+}
+
+.statusBar {
+  height: 100%;
+  border-radius: 20px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#F96791+0,FA6791+52,FD7A85+100;Red+3D+%231 */
+  background: #F96791;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #F96791 0%, #FA6791 52%, #FD7A85 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #F96791 0%, #FA6791 52%, #FD7A85 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #F96791 0%, #FA6791 52%, #FD7A85 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F96791', endColorstr='#FD7A85', GradientType=0);
+  /* IE6-9 */
+}

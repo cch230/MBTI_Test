@@ -1,0 +1,14 @@
+#main{
+  background-color: #424242;
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+p{
+  font-size: 20px;
+}
+
+textarea{
+	width:400%;height: 100px;
+}
