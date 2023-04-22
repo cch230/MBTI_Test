@@ -22,7 +22,7 @@ Representative email : cch01024857239@gmail.com
 * 성향테스트를 만들어 참여한 사람의 성향을 데이터로 확인해보자
 
 ### 그림을 클릭하면 성향테스트 사이트로 이동합니다
-[![Image Label](https://github.com/cch230/Churani_portfolio/blob/master/assets/img/22.PNG)](http://www.wowflee.com/) 
+[![Image Label](https://github.com/cch230/MBTI_Test/blob/main/image/intro.png)](https://www.meboon.com/site/MBTI/MBTI.html) 
 
 ### SPA, bootstrap, DB, KAKAO Share
 ```text
